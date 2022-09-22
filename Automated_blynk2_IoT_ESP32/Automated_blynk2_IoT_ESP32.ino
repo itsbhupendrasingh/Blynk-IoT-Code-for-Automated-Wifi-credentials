@@ -1,7 +1,7 @@
 // Repalce below credentials for your blynk 
-#define BLYNK_TEMPLATE_ID "TMPLoA6AldYf"
-#define BLYNK_DEVICE_NAME "Blynk2 IoT"
-#define BLYNK_AUTH_TOKEN "TmzqwAXglBF4e1Aiebj_9VYegLtmxr4k"
+#define BLYNK_TEMPLATE_ID "Template Name"
+#define BLYNK_DEVICE_NAME "TDevice Name"
+#define BLYNK_AUTH_TOKEN "Token"
 
 #define BLYNK_PRINT Serial
 
