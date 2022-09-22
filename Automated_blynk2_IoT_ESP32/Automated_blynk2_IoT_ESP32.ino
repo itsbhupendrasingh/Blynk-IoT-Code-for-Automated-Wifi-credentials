@@ -5,18 +5,20 @@
 
 #define BLYNK_PRINT Serial
 
-#include <ESP8266WiFi.h>
-#include <BlynkSimpleEsp8266.h>
+
+#include <WiFi.h>
+#include <WiFiClient.h>
+#include <BlynkSimpleEsp32.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "Wifi Name";
 char pass[] = "Wifi Password";
 
 #include "DHT.h"
-DHT dht(D2, DHT11);
+DHT dht(13, DHT11);
 
 BlynkTimer timer;
-int led=D5;
+int led=12;
 
 // This function is called every time the Virtual Pin 0 state changes
 BLYNK_WRITE(V2)
